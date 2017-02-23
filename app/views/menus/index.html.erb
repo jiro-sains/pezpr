@@ -1,0 +1,10 @@
+<h1>Los Pescados de hoy:</h1>
+
+<% @menus.each do |menu| %>
+  <div>
+    <h2><%= menu.name %></h1><br />
+    <i><%= menu.price %></i><br />
+  </div>
+
+  <hr />
+<% end %>
